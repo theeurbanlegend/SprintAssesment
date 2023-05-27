@@ -11,11 +11,13 @@
     <script src="/build/css/main.js" defer ></script>
     <title>Bewton's Webpage</title>
 </head>
+<body class="ml-2 sm:w-full block w-full h-full font-medium px-3" >
+    <!-- will design drop down menu later -->
 <section class=" bg-[url('/images/tiger.jpg')] bg-cover sm:bg-cover sm:h-full h-full relative">
     <section class="bg-transparent " >
          <button id="hamburger-button" class="text-3xl md:hidden cursor-pointer">&#9776;</button>
         <nav class="hidden text-white md:block space-x-8 text-xl" aria-label="main">
-            <a href="#education" class="hover:opacity-90">My Education Journey</a>
+            <a href="#" classeducation="hover:opacity-90">My Education Journey</a>
             <a href="#hobbies" class="hover:opacity-90">Hobbies</a>
             <a href="#coding" class="hover:opacity-90">Coding~DirectEd</a>  <a href="#contactus" class="hover:opacity-90">Contact Me</a>
         </nav>
@@ -100,6 +102,16 @@
      <h3 id="coding" class="w-full bg-teal-400 font-semibold ">Coding</h3>
         <p>Basically, I love making things that are useful in everyday life and coding gives me that power.The current era is a technological age.However, I couldnt pool enough resources to facilitate my coding. DirectEd Foundation gave me a stepping stone to achieve my coding potential.They gave me learning resources as well as tutor support on how to code, and thats why i wish to learn programming with DirectEd.
             Through them, Ive been able to learn HTML and CSS as well as Java Script, through their guidance, I've attempted the following projects:
+            MY GITHUB REPOSITORIES
+            <ul class="list-disc ml-4">
+             <li>Kaggzskeletonsample-https://github.com/theeurbanlegend/kaggzskeletonsample (contains only html files)</li>
+             <li>Mytcssfile-https://github.com/theeurbanlegend/myprojects/tree/16cb30eca493bb5d5b0fa819b0a7be46a255a67d/mytcssfile</li>
+
+             <li>Little taco shop-https://github.com/theeurbanlegend/littletacoshop/commit/1bcdea97aa044ec649039504595f50abe2d4be6b</li>
+
+             <li>Kaggz sample -https://github.com/theeurbanlegend/kaggzsample</li>
+            </ul>
+
         </p>
      <aside id="contactus" class=" m-2 font-bold font-italic font-sans">
         <details>
@@ -109,30 +121,29 @@
         </details>
      </aside>
     
-
-     <form action="https://httpbin.org/get" method="get">
-        <fieldset class="border rounded">
-            <legend  class="bg-blue-50 bg-opacity-10 text-blue-400 ">Tell me more about yourself;</legend>
-            <p>
-                <label for="YourName">Your Name:</label>
-                <input class="border-blue-500 border rounded w-full" type="text" id="YourName" name="YourName" placeholder="eg Moses" required>
-            </p>
-            <p>
-                 <label for="EmailAddress">Your email;</label>
-                <input class="border-blue-400 rounded border w-full" type="email" id="EmailAddress" name="EmailAddress" placeholder="someone@example.com" required>
-            </p>
-            <p>
-                <label for="PhoneNumber">Telephone</label>
-                <input class="border-blue-400 border rounded w-full" type="tel" id="PhoneNumber" name="PhoneNumber" required placeholder="+(***)555544221" >
-            </p>
-            <p>
-              <label for="yourMessage">Your Message;</label>
-              <br>
-              <textarea class="border-y-blue-600 border w-full" name="yourMessage" id="yourMessage" cols="30" rows="10" placeholder="Tell me something brief about yourself🤗"></textarea>  
-            </p>
-            <button type="submit" class=" ml-10 mb-2 bg-teal-500 rounded">Submit</button>
-        </fieldset>
-    </form>
+<form action="https://httpbin.org/get" method="get">
+    <fieldset class="border rounded">
+        <legend  class="bg-blue-50 bg-opacity-10 text-blue-400 ">Tell me more about yourself;</legend>
+        <p>
+            <label for="YourName">Your Name:</label>
+            <input class="border-blue-500 border rounded w-full" type="text" id="YourName" name="YourName" placeholder="eg Moses" required>
+        </p>
+        <p>
+             <label for="EmailAddress">Your email;</label>
+            <input class="border-blue-400 rounded border w-full" type="email" id="EmailAddress" name="EmailAddress" placeholder="someone@example.com" required>
+        </p>
+        <p>
+            <label for="PhoneNumber">Telephone</label>
+            <input class="border-blue-400 border rounded w-full" type="tel" id="PhoneNumber" name="PhoneNumber" required placeholder="+(***)555544221" >
+        </p>
+        <p>
+          <label for="yourMessage">Your Message;</label>
+          <br>
+          <textarea class="border-y-blue-600 border w-full" name="yourMessage" id="yourMessage" cols="30" rows="10" placeholder="Tell me something brief about yourself🤗"></textarea>  
+        </p>
+        <button type="submit" class=" ml-10 mb-2 bg-teal-500 rounded">Submit</button>
+    </fieldset>
+</form>
 <footer class="bg-orange-200">
     <p>To learn more about me, You can find me on my social media handles;
     </p>
@@ -159,9 +170,8 @@
             hover:text-blue" href="mailto:@gmail.com"> mbuto152@gmail.com</a>.
         </div>
     </div>
-
-
     <p>Copyright &copy; Bewton Maina</p>
-</footer>
 
+</footer>
+</body>
 </html>
