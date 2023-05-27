@@ -11,3 +11,8 @@ const initApp =()=>{
     mobileMenu.addEventListener('click', toggleMenu)
 }
 document.addEventListener('DOMContentLoaded', initApp)
+
+const year= document.getElementById("year")
+const thisYear =new Date().getFullYear()
+year.setAttribute("datetime", thisYear)
+year.textContent= thisYear
