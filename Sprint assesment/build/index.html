@@ -110,7 +110,29 @@
      </aside>
     
 
-
+     <form action="https://httpbin.org/get" method="get">
+        <fieldset class="border rounded">
+            <legend  class="bg-blue-50 bg-opacity-10 text-blue-400 ">Tell me more about yourself;</legend>
+            <p>
+                <label for="YourName">Your Name:</label>
+                <input class="border-blue-500 border rounded w-full" type="text" id="YourName" name="YourName" placeholder="eg Moses" required>
+            </p>
+            <p>
+                 <label for="EmailAddress">Your email;</label>
+                <input class="border-blue-400 rounded border w-full" type="email" id="EmailAddress" name="EmailAddress" placeholder="someone@example.com" required>
+            </p>
+            <p>
+                <label for="PhoneNumber">Telephone</label>
+                <input class="border-blue-400 border rounded w-full" type="tel" id="PhoneNumber" name="PhoneNumber" required placeholder="+(***)555544221" >
+            </p>
+            <p>
+              <label for="yourMessage">Your Message;</label>
+              <br>
+              <textarea class="border-y-blue-600 border w-full" name="yourMessage" id="yourMessage" cols="30" rows="10" placeholder="Tell me something brief about yourself🤗"></textarea>  
+            </p>
+            <button type="submit" class=" ml-10 mb-2 bg-teal-500 rounded">Submit</button>
+        </fieldset>
+    </form>
 <footer class="bg-orange-200">
     <p>To learn more about me, You can find me on my social media handles;
     </p>
