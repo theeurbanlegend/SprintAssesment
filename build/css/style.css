@@ -627,16 +627,8 @@ video {
   display: flow-root;
 }
 
-.grid {
-  display: grid;
-}
-
 .hidden {
   display: none;
-}
-
-.h-1\/2 {
-  height: 50%;
 }
 
 .h-1\/4 {
@@ -947,6 +939,10 @@ video {
 
   .sm\:justify-evenly {
     justify-content: space-evenly;
+  }
+
+  .sm\:whitespace-normal {
+    white-space: normal;
   }
 
   .sm\:whitespace-nowrap {
